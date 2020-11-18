@@ -80,8 +80,8 @@
                     }
                     
                     .footer {
-                        background-color: rgb(2, 2, 54) !important;
-                        color: rgb(199, 199, 199);
+                        background-color: rgb(1, 1, 10) !important;
+                        color: rgb(165, 165, 165);
                     }
                     
                     .ico_footer i.fa {
@@ -95,4 +95,29 @@
                     
                     div h2 small {
                         margin-left: 540px;
+                    }
+                    
+                    h4 {
+                        color: grey;
+                    }
+                    
+                    .vl {
+                        border-right: 2px solid black;
+                        height: 400px;
+                    }
+                    
+                    .fot2 a:link,
+                    a:visited,
+                    a:active {
+                        color: grey;
+                        text-decoration: none;
+                    }
+                    
+                    .fot2 a:hover {
+                        color: grey;
+                        text-decoration: none;
+                    }
+                    
+                    .fot2 {
+                        padding: 15px;
                     }
