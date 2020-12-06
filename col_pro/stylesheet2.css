@@ -13,15 +13,27 @@ body {
     position: fixed;
     bottom: 0;
     left: 0;
-    height: 100%;
     width: 100%;
+    height: 100%;
     z-index: -1;
+    background-color: black;
+    opacity: 0.6;
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    float: center;
+    width: 47vw;
+    height: 83vh;
     display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 7rem;
+    padding: 101px 5rem 63px 160px;
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: rgb(33, 1, 41) 10px 10px 1000px;
+    transform: translate(-50%, -52%);
+    top: 50%;
+    left: 50%;
 }
 
 .img {
@@ -51,7 +63,7 @@ form {
 
 .login-content h2 {
     margin: 15px 0;
-    color: rgb(128, 126, 126);
+    color: rgb(66, 4, 53);
     text-transform: uppercase;
     font-size: 2.9rem;
 }
@@ -62,7 +74,7 @@ form {
     grid-template-columns: 7% 93%;
     margin: 25px 0;
     padding: 5px 0;
-    border-bottom: 2px solid #d9d9d9;
+    border-bottom: 2px solid #252525;
 }
 
 .login-content .input-div.one {
@@ -70,7 +82,7 @@ form {
 }
 
 .i {
-    color: #d9d9d9;
+    color: #30022d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +102,7 @@ form {
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
-    color: rgb(211, 211, 211);
+    color: rgb(0, 0, 0);
     font-size: 18px;
     transition: .3s;
 }
@@ -102,7 +114,7 @@ form {
     bottom: -2px;
     width: 0%;
     height: 2px;
-    background-color: #c8fdec;
+    background-color: #f81606;
     transition: .4s;
 }
 
@@ -125,7 +137,7 @@ form {
 }
 
 .input-div.focus>.i>i {
-    color: #aafce1;
+    color: #f30101;
 }
 
 .input-div>div>input {
@@ -139,7 +151,7 @@ form {
     background: none;
     padding: 0.5rem 0.7rem;
     font-size: 1.2rem;
-    color: rgb(221, 219, 219);
+    color: rgb(41, 2, 43);
     font-family: 'poppins', sans-serif;
 }
 
@@ -151,13 +163,13 @@ a {
     display: block;
     text-align: right;
     text-decoration: none;
-    color: rgb(216, 216, 216);
+    color: rgb(27, 27, 27);
     font-size: 0.9rem;
     transition: .3s;
 }
 
 a:hover {
-    color: #d1fff0;
+    color: #022016;
 }
 
 .btn {
@@ -167,10 +179,10 @@ a:hover {
     border-radius: 25px;
     outline: none;
     border: none;
-    background-image: linear-gradient(to right, #835f3db4, #c7803e, #32be8f);
+    background-image: linear-gradient(to right, #629b88, #94622a, #32be8f);
     background-size: 200%;
     font-size: 1.2rem;
-    color: #fff;
+    color: rgb(14, 1, 1);
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     margin: 1rem 0;
@@ -204,6 +216,7 @@ a:hover {
 @media screen and (max-width: 900px) {
     .container {
         grid-template-columns: 1fr;
+        box-shadow: none;
     }
     .img {
         display: none;
