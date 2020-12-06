@@ -144,8 +144,9 @@
                     }
                     /*our services page*/
                     
-                    .container {
+                    .fluid-container {
                         padding: 64px;
+                        background-color: rgb(234, 234, 255);
                     }
                     
                     .row1:after {
