@@ -57,7 +57,7 @@ ul li a {
 }
 
 .carousel {
-    margin-top: 1px;
+    margin-top: 57px;
 }
 
 .carousel-inner img {
@@ -134,7 +134,7 @@ a:active {
     opacity: 0.7;
 }
 
-.carousel-caption {
+.contacti {
     padding-bottom: 318px !important;
     opacity: 01;
 }
@@ -143,6 +143,16 @@ a:active {
     background-color: none;
     margin-left: 0px;
     margin-top: -180px;
+}
+
+.map {}
+
+.map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 241px;
 }
 
 
