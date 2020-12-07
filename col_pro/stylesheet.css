@@ -180,3 +180,9 @@ a:active {
     width: 33.3333%;
     padding: 20px;
 }
+
+.responsive_img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
