@@ -30,10 +30,11 @@ body {
     padding: 101px 5rem 63px 160px;
     position: absolute;
     box-sizing: border-box;
-    box-shadow: rgb(33, 1, 41) 10px 10px 1000px;
+    box-shadow: rgb(192, 192, 192) 10px 10px 800px;
     transform: translate(-50%, -52%);
     top: 50%;
     left: 50%;
+    background-color: white;
 }
 
 .img {
