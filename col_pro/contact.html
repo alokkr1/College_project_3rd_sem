@@ -70,7 +70,7 @@
                                 <font color="grey"> CONTACT US</font>
                             </h1><br>
                             <h5>
-                                <font color="grey">WE DID LOVE TO HELP YOU IN REVIEWING THE PRODUCTS YOU NEED. </font>
+                                <font color="grey">How can we help You? </font>
                             </h5>
                         </center>
                     </div>
@@ -85,13 +85,13 @@
                 <div class="col-sm-6">
                     <div class="card bg-light text-dark">
                         <div class="card-body text-center">
-                            <h3>TALK TO EXPERT REVIEWERS</h3>
+                            <h3>WE ARE JUST ONE CLICK AWAY</h3>
                             <a href="#"><img src="call.png" width=60px>
                                 <p style="color:rgb(63, 5, 63);"><b>+91&nbsp;9915445565 </b></p>
                             </a><br>
                             <div class="container">
                                 <h2>COMMENT YOUR THOUGHTS</h2>
-                                <form action="/action_page.php" class="needs-validation" novalidate>
+                                <form action="#" class="needs-validation" novalidate>
                                     <div class="form-group">
                                         <label for="uname"><h4>Username:</h4></label>
                                         <input type="text" class="form-control" id="uname" placeholder="Enter username/emailID" name="uname" required>
@@ -101,13 +101,14 @@
 
                                     <div class="form-group">
                                         <label for="uname"><h4>MOBILE NUMBER:</h4></label>
-                                        <input type="text" class="form-control" id="uname" placeholder="Enter MOBILE NUMBER" name="mnumber" required>
+                                        <input type="text" class="form-control" id="uname" placeholder="Enter MOBILE NUMBER" name="number" required>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
+                                    <textarea name="subject" placeholder="Comment.." style="height:auto width:auto"></textarea><br>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
                                 </form>
-                                <textarea name="subject" placeholder="Comment.." style="height:auto width:auto"></textarea><br>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+
                             </div>
 
                         </div>
@@ -120,7 +121,7 @@
                                 <FONT COLOR="grey">VISIT US</FONT>
                             </h1>
                             <img src="loco.png" width="80px" style="padding-bottom: 20px;">
-                            <a href="#" class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15554.470116834118!2d77.57339359773093!3d12.93228610821162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158b11e34d2f%3A0x5f4adbdbab8bd80f!2sBMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1607358601420!5m2!1sen!2sin" width="650" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></a>
+                            <a href="#" class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15554.470116834118!2d77.57339359773093!3d12.93228610821162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158b11e34d2f%3A0x5f4adbdbab8bd80f!2sBMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1607358601420!5m2!1sen!2sin" width="650" height="850" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" style="height:900px !important;"></iframe></a>
                         </div>
                     </div>
                 </div>
@@ -144,6 +145,27 @@
 
             </div>
         </div>
+
+        <script>
+            // Disable form submissions if there are invalid fields
+            (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+                    // Get the forms we want to add validation styles to
+                    var forms = document.getElementsByClassName('needs-validation');
+                    // Loop over them and prevent submission
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                            if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                            form.classList.add('was-validated');
+                        }, false);
+                    });
+                }, false);
+            })();
+        </script>
 
 
 </body>
