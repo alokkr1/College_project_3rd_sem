@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 nav {
     position: relative;
     overflow: hidden;
@@ -14,12 +15,11 @@ nav {
     color: rgb(22, 1, 1);
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 .navbar-nav {
     margin-bottom: 21px;
-    margin-right: 630px;
+    margin-right: 570px;
 }
 
 div.dropdown-menu {
@@ -61,59 +61,59 @@ ul li a {
     text-align: center;
 }
 
-
 .image img {
     width: 100%;
     height: max-content;
-    background-color: rgba(129,129,129,0.026)
+    background-color: rgba(129, 129, 129, 0.026)
     /*opacity: 0.8;*/
-
-
 }
 
 .carousel-caption {
     padding-bottom: 70px;
-
     float: left;
 }
 
-.col-sm-7{
+.col-sm-7 {
     margin-left: 300px;
+}
 
-}
-.col-sm-7 p{
+.col-sm-7 p {
     font-weight: 400;
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
-.col-sm-7 ul{
+
+.col-sm-7 ul {
     font-weight: 400;
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
-.col-sm-7 li{
+
+.col-sm-7 li {
     padding-left: 20px;
-
 }
-.col-sm-7 a{
+
+.col-sm-7 a {
     border-bottom: 1px solid currentColor;
     color: rgb(233, 114, 207);
 }
-.col-sm-3{
+
+.col-sm-3 {
     margin-right: 50px;
 }
 
-
-.row{
-    background-color:rgb(255, 255, 255);
+.row {
+    background-color: rgb(255, 255, 255);
 }
+
 P.drop-cap:first-letter {
     font-size: 3.5em;
     float: left;
-    margin-bottom:-30px ;
+    margin-bottom: -30px;
     margin-top: -0.1em;
     font-family: monoton;
 }
+
 .foot .footer {
     background-color: rgb(63, 63, 63) !important;
     color: rgb(248, 245, 245);

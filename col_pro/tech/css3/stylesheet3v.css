@@ -1,7 +1,5 @@
     * {
         box-sizing: border-box;
-      
-
     }
     
     body {
@@ -22,7 +20,7 @@
     
     .navbar-nav {
         margin-bottom: 21px;
-        margin-right: 680px;
+        margin-right: 630px;
     }
     
     div.dropdown-menu {
@@ -64,10 +62,6 @@
         text-align: center;
     }
     /*down navbar*/
-    
-    .downnavbar {
-        margin-top: 45px;
-    }
     
     .topnav {
         overflow: hidden;
@@ -124,9 +118,6 @@
         }
     }
     /*contents*/
-    .card{
-        width: 85%;
-    }
     
     .m20 {
         padding-top: 110px;
@@ -144,11 +135,6 @@
         margin-left: 50px;
         background-color: rgba(253, 253, 253, 0.226);
     }
-
-    
-    
-    
-    
     
     .star1 .checked {
         color: rgb(240, 148, 10);
@@ -203,21 +189,20 @@
     }
     /*footer*/
     
-    .foot .footer {
-    background-color: rgb(63, 63, 63) !important;
-    color: rgb(248, 245, 245);
-    width: 103%;
-
-    text-align: center;
-    opacity: 0.8;
-    margin-bottom: -20px;
-}
-
-.ico_footer i.fa {
-    margin: 14px 44px;
-    margin-right: 20px;
-    margin-left: 14px;
-    padding: 0px;
-    font-size: 25px;
-    color: rgb(238, 237, 237);
-}
+    .footer {
+        background-color: rgb(63, 63, 63) !important;
+        color: rgb(248, 245, 245);
+        width: 100%;
+        text-align: center;
+        opacity: 0.8;
+        margin-bottom: 0px;
+    }
+    
+    .ico_footer i.fa {
+        margin: 14px 44px;
+        margin-right: 20px;
+        margin-left: 14px;
+        padding: 0px;
+        font-size: 25px;
+        color: rgb(238, 237, 237);
+    }
