@@ -1,5 +1,5 @@
 body {
-    background-image: url("../image1/wave.png");
+    background-image: url("../image1/cover_register.jpg");
     background-size: cover !important;
 }
 
@@ -59,7 +59,7 @@ body {
 .form-white textarea.md-textarea:focus:not([readonly]) {
     border-bottom: 1px solid #fff;
     box-shadow: 0 1px 0 0 #fff;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .form-white textarea.md-textarea {
@@ -80,7 +80,8 @@ body {
 }
 
 .myClass .card-body {
-    box-shadow: 10px 20px 30px 20px rgb(202, 201, 201);
+    box-shadow: 10px 20px 30px 20px rgb(126, 73, 121);
+    background-color: #ffffff;
 }
 
 .btn {
@@ -90,7 +91,7 @@ body {
     border-radius: 25px !important;
     outline: none;
     border: none;
-    background-image: linear-gradient(to right, #744221, #27be78, #6e4c1e);
+    background-image: linear-gradient(to right, #96430c, #27be78, #a05f04);
     background-size: 200%;
     font-size: 1.2rem;
     color: #fff;

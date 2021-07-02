@@ -1,3 +1,22 @@
+<?php 
+session_start();
+
+    $servername="localhost:3307";
+    $username="root";
+    $password="";
+    $dbname="project";
+    
+    $conn=mysqli_connect($servername,$username,$password,$dbname);
+
+    if(!$conn)
+      die("connection failed" .mysqli_connect_error);
+
+    include("functions.php");
+
+    $user_data = check_login($conn);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,13 +69,11 @@
                     <a class="nav-link" href="contact.html ">CONTACT US</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="signup.php">Log IN</a>
+                <?php echo"Hello!!" .$user_data['username'];?>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="register.php">Register</a>
+                    <a class="nav-link" href="logout.php">Logout<?php echo $user_data['username']; ?></a>
                 </li>
-
-
             </ul>
         </div>
 
