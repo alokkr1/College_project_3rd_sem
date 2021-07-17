@@ -30,17 +30,17 @@
             <div class="collapse navbar-collapse" id="navii">
                 <ul class="navbar-nav  nav-tabs-justified ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link " href="home_page.html"><i class="fa fa-home">&nbsp;</i>HOME</a>
+                        <a class="nav-link " href="home_page.php"><i class="fa fa-home">&nbsp;</i>HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="movies.html"><i class="fas fa-tv">&nbsp;</i>MOVIES</a>
+                        <a class="nav-link active" href="movies.php"><i class="fas fa-tv">&nbsp;</i>MOVIES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="tech/techv.html"><i class="fa fa-rocket" aria-hidden="true"></i>
+                        <a class="nav-link" href="tech/techv.php"><i class="fa fa-rocket" aria-hidden="true"></i>
                             TECH</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="game/games.html"><i class="fas fa-volleyball-ball">&nbsp;</i>GAMES</a>
+                        <a class="nav-link" href="game/games.php"><i class="fas fa-volleyball-ball">&nbsp;</i>GAMES</a>
                     </li>
 
                 </ul>
@@ -56,13 +56,13 @@
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="movies.html">2020</a>
+                        <a class="nav-link active" href="movies.php">2020</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="2019.html">2019</a>
+                        <a class="nav-link" href="2019.php">2019</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="2018.html">2018</a>
+                        <a class="nav-link" href="2018.php">2018</a>
                     </li>
                 </ul>
             </div>

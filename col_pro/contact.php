@@ -1,6 +1,7 @@
 <?php 
-error_reporting (E_ALL ^ E_NOTICE); 
-
+session_start();
+ error_reporting (E_ALL ^ E_NOTICE); 
+ 
 
     $servername="localhost:3307";
     $username="root";
@@ -22,8 +23,12 @@ error_reporting (E_ALL ^ E_NOTICE);
     if(!$conn->query($sql)==true){
         die("Error:$sql <br> $conn->error");
     }
-    $conn->close();
 
+    include("functions.php");
+
+    $user_data = check_login($conn);
+    
+ 
     
 ?>
 
@@ -57,29 +62,29 @@ error_reporting (E_ALL ^ E_NOTICE);
         <div class="collapse navbar-collapse" id="navi">
             <ul class="navbar-nav  nav-tabs-justified ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link " href="home_page.html"><i class="fa fa-home">&nbsp;</i>HOME</a>
+                    <a class="nav-link " href="home_page.php"><i class="fa fa-home">&nbsp;</i>HOME</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="tech/techv.html"><i class="fa fa-rocket" aria-hidden="true">&nbsp;</i>TECH</a>
-                </li>
-
-                <li class="nav-item ">
-                    <a class="nav-link " href="movies.html"><i class="fas fa-tv">&nbsp;</i>MOVIES</a>
+                    <a class="nav-link" href="tech/techv.php"><i class="fa fa-rocket" aria-hidden="true">&nbsp;</i>TECH</a>
                 </li>
 
                 <li class="nav-item ">
-                    <a class="nav-link" href="game/games.html"><i class="fas fa-volleyball-ball">&nbsp;</i>GAMES</a>
+                    <a class="nav-link " href="movies.php"><i class="fas fa-tv">&nbsp;</i>MOVIES</a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="game/games.php"><i class="fas fa-volleyball-ball">&nbsp;</i>GAMES</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link " href="our_services.html"><i class="fa fa-fw fa-wrench"></i>OUR SERVICES</a>
+                    <a class="nav-link " href="our_services.php"><i class="fa fa-fw fa-wrench"></i>OUR SERVICES</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link active" href="contact.html ">CONTACT US</a>
+                    <a class="nav-link active" href="contact.php ">CONTACT US</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="signup.html">SIGN IN</a>
+                    <a class="nav-link" href="logout.php">Logout</a>
                 </li>
             </ul>
         </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css1/stylesheet3.css">
+    <link rel="stylesheet" href="css1/stylesheet4.css">
     <link rel="shortcut icon" type="image/png" href="imgfav/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />">
     <script defer src="https://kit.fontawesome.com/78a52bcfab.js" crossorigin="anonymous"></script>
-    <title>Movies 2020</title>
+    <title>Movies 2019</title>
 </head>
 
 <body>
@@ -30,17 +30,17 @@
             <div class="collapse navbar-collapse" id="navii">
                 <ul class="navbar-nav  nav-tabs-justified ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link " href="home_page.html"><i class="fa fa-home">&nbsp;</i>HOME</a>
+                        <a class="nav-link " href="home_page.php"><i class="fa fa-home">&nbsp;</i>HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="movies.html"><i class="fas fa-tv">&nbsp;</i>MOVIES</a>
+                        <a class="nav-link active" href="movies.php"><i class="fas fa-tv">&nbsp;</i>MOVIES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="tech/techv.html"><i class="fa fa-rocket" aria-hidden="true"></i>
+                        <a class="nav-link" href="tech/techv.php"><i class="fa fa-rocket" aria-hidden="true"></i>
                             TECH</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="game/games.html"><i class="fas fa-volleyball-ball">&nbsp;</i>GAMES</a>
+                        <a class="nav-link" href="game/games.php"><i class="fas fa-volleyball-ball">&nbsp;</i>GAMES</a>
                     </li>
 
                 </ul>
@@ -49,17 +49,17 @@
     </div>
 
     <div class="downnav">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="movies.html">2020</a>
+                        <a class="nav-link " href="movies.html">2020</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="2019.html">2019</a>
+                        <a class="nav-link active" href="2019.html">2019</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="2018.html">2018</a>
@@ -71,16 +71,16 @@
 
     <div class="m20" id="m2020">
         <center>
-            <H3 style="color:white;">MOVIES RELEASED IN 2020</H3><br></center>
+            <H3 style="color:white;">MOVIES RELEASED IN 2019</H3><br></center>
 
         <div class="row">
             <div class="col-sm-8">
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="card">
-                            <img src="image1/invisibleman.jpg" alt="invisible man" height="400px">
+                            <img src="image1/CaptainMarvelposter.jpg" alt="captain marvel" height="400px">
                             <div class="card-footer">
-                                <h4>Invisible Man</h4>
+                                <h4>Captain Marvel</h4>
                                 <p style="float: right;">
                                     <div class="star1">
                                         <span class="fa fa-star checked"></span>
@@ -88,12 +88,12 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star"></span>4/5
+                                        <br>IMDb:6.9/10
                                     </div>
-                                    Language: English <br> Country : Australia, United States <br> Box office: $140.6 million <br>
-
+                                    Language: English <br> Country : Australia, United States <br>Budget: $152–175 million <br> Box office:$1.128 billion <br>
                                 </p>
-                                <p>The Highest gross movie of 2020</p>
-                                Horror, Action | February 27, 2020 (Australia) February 28, 2020 (United States) | 2hrs 04 mins<br>
+                                Action/Sci-fi |February 27, 2019 (London) March 8, 2019 (US) | 2hrs 05 mins
+                                <br>
                                 <a class="button" href="commenting movies/comment_index.php" style="background-color: #3e0649;
                                   border: none;
                                   color: white;
@@ -104,31 +104,30 @@
                                   font-size: 16px;
                                   margin: 4px 2px;
                                   cursor: pointer;">Comment Here</a>
-
-
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="card">
-                            <img src="image1/baghi.jpg" alt="baghi3" height="400px">
+                            <img src="image1/Warposter.jpg" alt="war" height="400px">
                             <div class="card-footer">
-                                <h4>Baaghi 3</h4>
+                                <h4>War</h4>
                                 <p style="float: right;">
                                     <div class="star2">
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span> 2.2/5
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span> 2/5
+                                        <br>IMDb:6.5/10
                                     </div>
-                                    Language: Hindi <br> Budget: ₹85cr <br> Box office: est. ₹137cr
-                                </p>
-                                <p>The Highest gross movie of 2020</p>
-                                Hindi Action | UA 06 Mar 2020 | 2 hrs 23 mins
-                                <br>
-                                <br>
+                                    Language: Hindi <br> Budget: ₹140 cr <br> Box office: ₹475.50 cr
 
+                                </p>
+                                Hindi Action/Thriller | 2 October 2019 | 2 hrs 34mins
+                                <br>
+                                <br>
+                                <br>
                                 <a class="button" href="commenting movies/comment_index.php" style="background-color: #3e0649;
                                   border: none;
                                   color: white;
@@ -139,30 +138,30 @@
                                   font-size: 16px;
                                   margin: 4px 2px;
                                   cursor: pointer;">Comment Here</a>
-                                <br>
 
+                                <br>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-4">
                         <div class="card">
-                            <img src="image1/dollite.png" alt="Dolittle" height="400px">
+                            <img src="image1/JumanjiTheNextLevel.jpg" alt="Jumanji the next level" height="400px">
                             <div class="card-footer">
-                                <h4>Dolittle</h4>
+                                <h4>Jumanji : The Next Level</h4>
                                 <p style="float: right;">
                                     <div class="star3">
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star "></span>3.4/5
+                                        <span class="fa fa-star "></span>
+                                        <span class="fa fa-star "></span>3.5/5
+                                        <br> IMDb:6.7/10
                                     </div>
-                                    Language: Hindi <br> Budget: ₹110–125 <br> Box office: est. ₹367.65 <br>
-
+                                    Language: English <br> Budget: $125–132 million <br> Box office:$800.1 million <br>
                                 </p>
-
-                                Family, Comedy | January 17, 2020 (US and Canada) February 7, 2020 (UK) March 5, 2020 (Israel) July 24, 2020 (China) | 1 hrs 41 mins
+                                Adventure/Comedy | December 13, 2019 | 2 hrs 03 mins
+                                <br>
                                 <br>
                                 <br>
                                 <a class="button" href="commenting movies/comment_index.php" style="background-color: #3e0649;
@@ -175,7 +174,7 @@
                                   font-size: 16px;
                                   margin: 4px 2px;
                                   cursor: pointer;">Comment Here</a>
-
+                                <br>
 
                             </div>
                         </div>
@@ -183,13 +182,12 @@
                 </div>
             </div>
             <div class="col-sm-3">
-                <h3 style="color:white;">UPCOMING MOVIE</h3>
+                <h3 style="color:white;"> Trending Upcoming Movie </h3>
+                <img src="image1/topgun2.jpg" alt="top gun 2" width="100%" height="400px">
                 <div class="card">
-                    <img src="image1/WonderWoman1984.png" alt="wonderwoman1984" height="400px">
                     <div class="card-footer">
-                        <h4>Wonder Woman 1984</h4>
-                        Action Adventure Fantasy | 24 Dec, 2020 | 2 hrs 23 mins
-                        <br>
+                        <h4>Top Gun 2 Maverick</h4>
+                        Release date: July 2, 2021 (United States)| Country: United States | Language: English | Budget: $152 million
                         <br>
                         <br>
                         <br>
@@ -207,7 +205,7 @@
                                   font-size: 16px;
                                   margin: 4px 2px;
                                   cursor: pointer;">Comment Here</a>
-                        <br>
+
                     </div>
                 </div>
             </div>
@@ -219,22 +217,22 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card">
-                        <img src="image1/dilbech.jpg" alt="dilbechare" height="400px">
+                        <img src="image1/HappyDeathDay2U.png" alt="HappyDeathDay2U" height="400px">
                         <div class="card-footer">
-                            <h4>Dil Bechara</h4>
+                            <h4>Happy Death Day 2U</h4>
                             <p style="float: right;">
                                 <div class="star4">
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>5/5
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star "></span>5/5
+                                    <br> IMDb:6.2/10
                                 </div>
-                                Language: Hindi <br> Budget est. ₹25-30 cr <br> Box office: est. ₹2000cr <br>
-
+                                Language: English <br> Budget $9 million <br> Box office: $64.6 million <br>
                             </p>
-                            <p>The Highest gross movie of 2020</p>
-                            Drama, Romance | 24 Jul 2020 | 1 hr 41 mins
+                            Thriller/Slasher |February 13, 2019 (United States) | 1 hr 40 mins
+                            <br>
                             <br>
                             <a class="button" href="commenting movies/comment_index.php" style="background-color: #3e0649;
                                   border: none;
@@ -247,26 +245,26 @@
                                   margin: 4px 2px;
                                   cursor: pointer;">Comment Here</a>
 
+
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
-                        <img src="image1/laxmii.jpg" alt="Laxmii" height="400px">
+                        <img src="image1/Shazam!.jpg" alt="SHazam" height="400px">
                         <div class="card-footer">
-                            <h4>Laxmii</h4>
+                            <h4>Shazam!</h4>
                             <p style="float: right;">
                                 <div class="star5">
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star "></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>2/5
+                                    <span class="fa fa-star checked "></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>4/5
+                                    <br> IMDb:7.1/10
                                 </div>
-                                Language: Hindi <br> Country: India <br> Box office: est. ₹4.05cr <br>
-
+                                Language: English <br> Country: USA<br> Budget: $80–100 million <br> Box office: $366 million <br>
                             </p>
-                            <p>The Highest gross movie of 2020</p>
                             Family, Comedy | UA 15 Nov 2020 | 2 hrs 20 mins
                             <br>
                             <a class="button" href="commenting movies/comment_index.php" style="background-color: #3e0649;
@@ -280,27 +278,26 @@
                                   margin: 4px 2px;
                                   cursor: pointer;">Comment Here</a>
 
+
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
-                        <img src="image1/badboys.jpg" alt="BAdBoysforLife" height="400px">
+                        <img src="image1/Hellboy.png" alt="Hellboy" height="400px">
                         <div class="card-footer">
-                            <h4>Bad Boys for Life</h4>
+                            <h4>HellBoy</h4>
                             <p style="float: right;">
                                 <div class="star6">
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
                                     <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>3.5/5
+                                    <span class="fa fa-star"></span>2.5/5 <br> IMDb:5.2/10
                                 </div>
-                                Language: English <br> Budget: $90 million <br> Box office: $426.5 million <br>
-
+                                Language: English <br> Budget: $50 million <br> Box office: $55.5 million <br>
                             </p>
-                            <p>The Highest gross movie of 2020</p>
-                            Adult, Action | January 17, 2020 | 2 hrs 04 mins
+                            Action/Fantasy | April 9, 2019 (New York) April 12, 2019 (US) | 2 hrs 01 mins
                             <br>
                             <a class="button" href="commenting movies/comment_index.php" style="background-color: #3e0649;
                                   border: none;
@@ -313,6 +310,7 @@
                                   margin: 4px 2px;
                                   cursor: pointer;">Comment Here</a>
 
+
                         </div>
                     </div>
                 </div>
@@ -320,28 +318,10 @@
             </div>
         </div>
         <div class="col-sm-3">
-            <h3 style="color:white;">Wonder Woman 1984 Trailer</h3>
+            <h3 style="color:white;">Trending Upcoming Movies Trailers</h3>
             <div class="card">
-                <iframe width="100%" height="400" src="https://www.youtube.com/embed/psFf4KXJZoQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="card-footer">
-                    <h4>Wonder Woman 1984</h4>
-                    Action Adventure Fantasy | 24 Dec, 2020 | 2 hrs 23 mins
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <a class="button" href="commenting movies/comment_index.php" style="background-color: #3e0649;
-                                  border: none;
-                                  color: white;
-                                  padding: 10px 25px;
-                                  text-align: center;
-                                  text-decoration: none;
-                                  display: inline-block;
-                                  font-size: 16px;
-                                  margin: 4px 2px;
-                                  cursor: pointer;">Comment Here</a>
-                </div>
+                <iframe width="100%" height="300" src="https://www.youtube.com/embed/g4U4BQW9OEk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="300" src="https://www.youtube.com/embed/_qyw6LC5pnE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
@@ -352,38 +332,47 @@
             <div class="row">
                 <div class="col-sm-2">
                     <div class="card">
-                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/GSrhCZTTaEs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/0LHxvxdRnYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <div class="card-footer">
-                            <h4>Invisible Man</h4>
-                            <br>
-
+                            <h4>Captain Marvel Trailer</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="card">
-                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/jQzDujMzfoU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/tQ0mzXRk-oM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <div class="card-footer">
-                            <h4>Baaghi-3 Trailer</h4>
+                            <h4>War Trailer</h4>
                             <br>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="card">
-                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/FEf412bSPLs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/F6QaLsw8EWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <div class="card-footer">
-                            <h4>Dolittle Trailer</h4>
+                            <h4>Jumanji The Next Level Trailer</h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="card">
+                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/THq6KlWgiqw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-footer">
+                            <h4>Happy Death Day 2U Trailer</h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="card">
+                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/go6GEIrcvFY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-footer">
+                            <h4>Shazam! Trailer</h4>
                             <br>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-2">
-                    <div class="card">
-                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/GODAlxW5Pes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="card-footer">
-                            <h4>Dil Bechara Trailer</h4>
 
                         </div>
                     </div>
@@ -391,19 +380,10 @@
 
                 <div class="col-sm-2">
                     <div class="card">
-                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/xw0gE8QA1W0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="card-footer">
-                            <h4>Laxmii Trailer</h4>
-                            <br>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-2">
-                    <div class="card">
-                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/jKCj3XuPG8M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/ZsBO4b3tyZg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <div class="card-footer ">
-                            <h4>Bad Boys for Life Trailer</h4>
+                            <h4>HellBoy Trailer</h4>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -416,21 +396,22 @@
             <div class="row ">
                 <div class="col-sm-4 ">
                     <div class="card ">
-                        <img src="image1/grudge.jpeg" alt="Grudge" height="350px">
+                        <img src="image1/AvengersEndgame.jpg" alt="AvengersEndgame" height="400px">
                         <div class="card-footer ">
-                            <h4>Grudge</h4>
+                            <h4>Avengers Endgame</h4>
                             <p style="float: right; ">
                                 <div class="star7 ">
                                     <span class="fa fa-star checked "></span>
                                     <span class="fa fa-star checked "></span>
                                     <span class="fa fa-star checked "></span>
                                     <span class="fa fa-star checked "></span>
-                                    <span class="fa fa-star "></span>4/5
+                                    <span class="fa fa-star checked"></span>5/5
+                                    <br>IMDb:8.4/10
                                 </div>
-                                Language:English <br> Budget:$10–14 million <br> Box office: $49.5 million <br>
-
+                                Language:English <br> Budget: $356 million <br> Box office: $2.798 billion <br>
                             </p>
-                            Horror, Action | January 3, 2020 (US) | 1 hrs 34 mins
+                            Action/Sci-fi | April 22, 2019 (Los Angeles Convention Center) April 26, 2019 (US) | 3 hrs 02 mins
+                            <br>
                             <br>
                             <a class="button" href="commenting movies/comment_index.php" style="background-color: #3e0649;
                                   border: none;
@@ -442,14 +423,16 @@
                                   font-size: 16px;
                                   margin: 4px 2px;
                                   cursor: pointer;">Comment Here</a>
+
+                            <br>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 ">
                     <div class="card ">
-                        <img src="image1/underwater.jpg" alt="Underwater " height="350px">
+                        <img src="image1/PokémonDetectivePikachuposter.jpg" alt="PokémonDetectivePikachuposter " height="400px">
                         <div class="card-footer ">
-                            <h4>Underwater</h4>
+                            <h4>Pokémon :Detective Pikachu</h4>
                             <p style="float: right; ">
                                 <div class="star8 ">
                                     <span class="fa fa-star checked "></span>
@@ -457,11 +440,13 @@
                                     <span class="fa fa-star checked "></span>
                                     <span class="fa fa-star "></span>
                                     <span class="fa fa-star "></span>3.5/5
+                                    <br>IMDb:6.6/10
                                 </div>
-                                Language: English <br> Budget:$50–80 million <br> Box office: $40.9 million <br>
+                                Language: English, Japan <br> Budget: $150 million[ <br> Box office: $433 million <br>
 
                             </p>
-                            Thriller, Action | January 10, 2020 (US) | 1 hrs 35 mins
+                            Family/Mystery | May 3, 2019 (Japan) May 10, 2019 (US) | 1 hrs 45 mins
+                            <br>
                             <br>
                             <a class="button" href="commenting movies/comment_index.php" style="background-color: #3e0649;
                                   border: none;
@@ -473,30 +458,35 @@
                                   font-size: 16px;
                                   margin: 4px 2px;
                                   cursor: pointer;">Comment Here</a>
+
+
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 ">
                     <div class="card ">
-                        <img src="image1/deathofme.jpg" alt="Death of me " height="350px">
+                        <img src="image1/MeninBlackInternational.png" alt="MeninBlackInternational " height="400px">
                         <div class="card-footer">
-                            <h4 ">Death Of Me</h4>
+                            <h4 ">Men In Black International</h4>
                         <p style="float: right; ">
                             <div class="star9 ">
                                 <span class="fa fa-star checked "></span>
                                 <span class="fa fa-star checked "></span>
+                                <span class="fa fa-star checked "></span>
                                 <span class="fa fa-star "></span>
-                                <span class="fa fa-star "></span>
-                                <span class="fa fa-star "></span>2.4/5
+                                <span class="fa fa-star "></span>3.5/5
+                                <br> IMDb:5.6/10
                             </div>
-                            Language: English <br> Budget:$12 Million <br> Box office: N/A <br>
+                            Language: English <br> Budget:$94-$110 Million <br> Box office: $253.9 million<br>
 
                         </p>
                         
-                        Horror |  2 October 2020 (USA) | 1 hrs 34 mins
+                        Action/Comedy | June 11, 2019 (New York City)
+                        June 14, 2019 (US) | 1 hrs 55 mins
                         <br>
-                                <a class="button " href="commenting movies/comment_index.php " style="background-color: #3e0649; border: none; color: white; padding: 10px 25px; text-align: center; text-decoration: none; display: inline-block; font-size:
-                                16px; margin: 4px 2px; cursor: pointer; ">Comment Here</a>
+                        <a class="button " href="commenting movies/comment_index.php " style="background-color: #3e0649; border: none; color: white; padding: 10px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;
+                                margin: 4px 2px; cursor: pointer; ">Comment Here</a>
+
 
                     </div>
                 </div>
@@ -506,8 +496,8 @@
     <div class="col-sm-3 ">
 
         <h3 style="color:white; "> UPCOMIG MOVIES TRAILERS</h3>
-        <iframe width="100% " height="315 " src="https://www.youtube.com/embed/5zdBG-iGfes " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-        <iframe width="100% " height="315 " src="https://www.youtube.com/embed/3od-kQMTZ9M " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+        <iframe width="100% " height="315 " src="https://www.youtube.com/embed/W_vJhUAOFpI " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+        <iframe width="100% " height="315 " src="https://www.youtube.com/embed/ybji16u608U " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
     </div>
     </div>
     </div>
@@ -517,56 +507,63 @@
             <div class="row ">
                 <div class="col-sm-4 ">
                     <div class="card ">
-                        <img src="image1/greenland.jpeg " alt="Greenland " height="350px ">
+                        <img src="image1/AngelHasFallen.jpg " alt="AngelHasFallen " height="400px ">
                         <div class="card-footer ">
-                            <h4>GreenLand</h4>
+                            <h4>Angle Has Fallen</h4>
                             <p style="float: right; ">
                                 <div class="star10 ">
                                     <span class="fa fa-star checked "></span>
                                     <span class="fa fa-star checked "></span>
-                                    <span class="fa fa-star checked "></span>
-                                    <span class="fa fa-star checked "></span>
-                                    <span class="fa fa-star "></span>4.2/5
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star "></span>2/5
+                                   <br> IMDb:6.4/10
                                 </div>
-                                Language: English <br> Budget: 	$35 million <br> Box office: $47.8 million <br>
+                                Language: English <br> Budget: 	$40-80 million <br> Box office: $146.7 million[ <br>
                             </p>
-                            Action/Disaster |5 August 2020 (France)  | 1 hrs 59 mins
+                            Action/Thriller|August 23, 2019 (US)  | 2 hrs 01 mins
                             <br>
-                            <br>
-                                <a class="button " href="commenting movies/comment_index.php " style="background-color: #3e0649; border: none; color: white; padding: 10px 25px; text-align: center; text-decoration: none; display: inline-block; font-size:
-                                16px; margin: 4px 2px; cursor: pointer; ">Comment Here</a>
+                            <br>    
+                        <a class="button " href="commenting movies/comment_index.php " style="background-color: #3e0649; border: none; color: white; padding: 10px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;
+                                margin: 4px 2px; cursor: pointer; ">Comment Here</a>
+
 
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 ">
                     <div class="card ">
-                        <img src="image1/OneNightinMiami.jpeg " alt="One night in Miami " height="350px ">
+                        <img src="image1/ItChapterTwo.jpg " alt=" ItChapterTwo " height="400px ">
                         <div class="card-footer ">
-                            <h4>One Night In Miami</h4>
+                            <h4> IT Chapter Two</h4>
                             <p style="float: right; ">
                                 <div class="star11 ">
                                     <span class="fa fa-star checked "></span>
                                     <span class="fa fa-star checked "></span>
                                     <span class="fa fa-star checked "></span>
                                     <span class="fa fa-star checked "></span>
-                                    <span class="fa fa-star checked "></span>4.8/5
+                                    <span class="fa fa-star "></span>4.2/5
+                                    <br> IMDb:6.5/10 
                                 </div>
-                                Language: English <br> Budget: $16.9 million <br> Box office: $200 million <br>
+                                Language: English <br> Budget: $79 million <br> Box office: $473.1 million <br>
 
                             </p>
-                            Drama | September 7, 2020 (Venice), December 25, 2020 (US) | 1 hrs 54 mins
+                            Horror | September 6, 2019 (USA) | 2hrs 05 mins
                             <br>
-                                <a class="button " href="commenting movies/comment_index.php " style="background-color: #3e0649; border: none; color: white; padding: 10px 25px; text-align: center; text-decoration: none; display: inline-block; font-size:
-                                16px; margin: 4px 2px; cursor: pointer; ">Comment Here</a>
+                            <br>
+                            
+                        <a class="button " href="commenting movies/comment_index.php " style="background-color: #3e0649; border: none; color: white; padding: 10px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;
+                                margin: 4px 2px; cursor: pointer; ">Comment Here</a>
+
+                            
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 ">
                     <div class="card ">
-                        <img src="image1/SoundofMetal.jpeg " alt="sound of metal " height="350px ">
+                        <img src= "image1/Joker.jpg " alt="joker " height="400px ">
                         <div class="card-footer ">
-                            <h4 >Sound Of Metal</h4>
+                            <h4 >Joker</h4>
                             <p style="float: right; ">
                                 <div class="star12 ">
                                     <span class="fa fa-star checked "></span>
@@ -574,15 +571,19 @@
                                     <span class="fa fa-star checked "></span>
                                     <span class="fa fa-star checked "></span>
                                     <span class="fa fa-star checked "></span>4.7/5
+                                    <br>IMDb:8.5/10
                                 </div>
-                                Language: English <br> Budget:N/A  <br> Box office:$5 million  <br>
+                                Language: English <br> Budget:	$55–70 million <br> Box office:	$1.074 billion  <br>
                             </p>
-                            Drama/Music |	
-                            September 6, 2019 (TIFF)
-                            November 20, 2020 (US)| 2 hrs 10 mins
+                            Crime/Drama |		
+                            August 31, 2019 (Venice)
+                            October 4, 2019 (US)| 2 hrs 10 mins
                             <br>
-                                <a class="button " href="commenting movies/comment_index.php " style="background-color: #3e0649; border: none; color: white; padding: 10px 25px; text-align: center; text-decoration: none; display: inline-block; font-size:
-                                16px; margin: 4px 2px; cursor: pointer; ">Comment Here</a>
+                        <a class="button " href="commenting movies/comment_index.php " style="background-color: #3e0649; border: none; color: white; padding: 10px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;
+                                margin: 4px 2px; cursor: pointer; ">Comment Here</a>
+
+                            
+
 
                         </div>
                     </div>
@@ -590,8 +591,8 @@
             </div>
         </div>
         <div class="col-sm-3 ">
-            <iframe width="100% " height="315 " src="https://www.youtube.com/embed/n9xhJrPXop4 " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-            <iframe width="100% " height="315 " src="https://www.youtube.com/embed/kY3SuNvqQPw " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+            <iframe width="100% " height="315 " src="https://www.youtube.com/embed/BIhNsAtPbPI " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+            <iframe width="100% " height="315 " src="https://www.youtube.com/embed/f_HvoipFcA8 " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
         </div>
     </div>
     </div>
@@ -601,55 +602,58 @@
             <div class="row ">
                 <div class="col-sm-2 ">
                     <div class="card ">
-                        <iframe width="100% " height="350 " src="https://www.youtube.com/embed/O2NKzO-fxwQ " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-                        <div class="card-footer ">
-                            <h4>Grudge Trailer</h4>
+                        <iframe width="100% " height="350 " src="https://www.youtube.com/embed/TcMBFSGVi1c " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture
+                                " allowfullscreen></iframe>                        <div class="card-footer ">
+                            <h4>Avengers Endgame Trailer</h4>
                             <br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-2 ">
-                    <div class="card ">
-                        <iframe width="100% " height="350 " src="https://www.youtube.com/embed/jCFWEzIVILc " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-                        <div class="card-footer ">
-                            <h4>UnderWater Trailer</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-2 ">
-                    <div class="card ">
-                        <iframe width="100% " height="350 " src="https://www.youtube.com/embed/thL28CAcuYo " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-                        <div class="card-footer ">
-                            <h4>Death of Me Trailer</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-2 ">
-                    <div class="card ">
-                        <iframe width="100% " height="350 " src="https://www.youtube.com/embed/J43zOCT0Wy0 " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-                        <div class="card-footer ">
-                            <h4>GreenLand Trailer</h4>
                             
                         </div>
                     </div>
                 </div>
-
                 <div class="col-sm-2 ">
                     <div class="card ">
-                        <iframe width="100% " height="350 " src="https://www.youtube.com/embed/ZprXMxKg--w " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-                        <div class="card-footer ">
-                            <h4>One Night In Miami Trailer</h4>
+                        <iframe width="100% " height="350 " src="https://www.youtube.com/embed/1roy4o4tqQM " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture
+                                " allowfullscreen></iframe>                        <div class="card-footer ">
+                            <h4>Pokémon Detective Pikachu Trailer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 ">
+                    <div class="card ">
+                        <iframe width="100% " height="350 " src="https://www.youtube.com/embed/BV-WEb2oxLk " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture
+                                " allowfullscreen></iframe>                        <div class="card-footer ">
+                            <h4>Men In Black International Trailer</h4>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-2 ">
                     <div class="card ">
-                        <iframe width="100% " height="350 " src="https://www.youtube.com/embed/VFOrGkAvjAE " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+                        <iframe width="100% " height="350 " src="https://www.youtube.com/embed/XF8h3hOGBJM " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
                         <div class="card-footer ">
-                            <h4>Sound of Metel Trailer</h4>
+                            <h4>Angel Has Fallen Trailer</h4>
+                            <br>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-sm-2 ">
+                    <div class="card ">
+                        <iframe width="100% " height="350 " src="https://www.youtube.com/embed/bKL1ImsN-DU " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+                        <div class="card-footer ">
+                            <h4>IT chapter 2 Trailer</h4>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-2 ">
+                    <div class="card ">
+                        <iframe width="100% " height="350 " src="https://www.youtube.com/embed/-_DJEzZk2pc " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture
+                                " allowfullscreen></iframe>                        <div class="card-footer ">
+                            <h4>Joker Trailer</h4>
+                             <br>
+                             <br>
                         </div>
                     </div>
                 </div>

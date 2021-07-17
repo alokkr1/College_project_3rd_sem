@@ -1,13 +1,43 @@
+<?php 
+session_start();
+
+    $servername="localhost:3307";
+    $username="root";
+    $password="";
+    $dbname="project";
+    
+    $conn=mysqli_connect($servername,$username,$password,$dbname);
+
+    if(!$conn)
+      die("connection failed" .mysqli_connect_error);
+
+    include("functions.php");
+
+    $user_data = check_login($conn);
+
+?>
+
 <html>
 
-    <head>
-        <link rel="stylesheet" href="style.css" />
-        <title>PHP Comment System with Like Unlike</title>
-        <script src="jquery-3.2.1.min.js"></script>
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Games Comments </title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="imgfav/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c3198e1999.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
                            
             
-         <body>
-        <h1>PHP Comment System with Like Unlike</h1>
+    <body>
+        <center><image src="comment.png" style="width:5vw;height:5vw;"></center>
+        <h1 style="color: gold; font-family:Comic Sans MS "><center><i class="fa-solid fa fa-comment"></i>&nbsp; Comment your thoughts on the Article </center></center></h1>
 
         <div class="comment-form-container">
             <form id="frm-comment">
@@ -17,12 +47,12 @@
                            type="text" name="name" id="name" placeholder="Name" />
                 </div>
                 <div class="input-row">
-                    <textarea class="input-field" type="text" name="comment"
-                              id="comment" placeholder="Add a Comment">  </textarea>
+                    <textarea class="input-field" type="text" name="comment" placeholder="Add a Comment"
+                              id="comment" placeholder="Add a Comment" >  </textarea>
                 </div>
                 <div>
-                    <input type="button" class="btn-submit" id="submitButton"
-                           value="Publish" /><div id="comment-message">Comments Added Successfully!</div>
+                    <input type="button" class="btn-submit" id="submitButton" value="Comment" />
+                      <div id="comment-message">Comments Added Successfully!</div>
                 </div>
 
             </form>

@@ -1,3 +1,24 @@
+<?php 
+session_start();
+
+    $servername="localhost:3307";
+    $username="root";
+    $password="";
+    $dbname="project";
+    
+    $conn=mysqli_connect($servername,$username,$password,$dbname);
+
+    if(!$conn)
+      die("connection failed" .mysqli_connect_error);
+
+  
+
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,17 +49,17 @@
             <div class="collapse navbar-collapse" id="navii">
                 <ul class="navbar-nav  nav-tabs-justified ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link " href="../home_page.html"><i class="fa fa-home">&nbsp;</i>HOME</a>
+                        <a class="nav-link " href="../home_page.php"><i class="fa fa-home">&nbsp;</i>HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="../movies.html"><i class="fas fa-tv">&nbsp;</i>MOVIES</a>
+                        <a class="nav-link " href="../movies.php"><i class="fas fa-tv">&nbsp;</i>MOVIES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="../tech/techv.html"><i class="fa fa-rocket" aria-hidden="true"></i>
+                        <a class="nav-link active" href="../tech/techv.php"><i class="fa fa-rocket" aria-hidden="true"></i>
                             TECH</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="../game/games.html"><i class="fas fa-volleyball-ball">&nbsp;</i>GAMES</a>
+                        <a class="nav-link " href="../game/games.php"><i class="fas fa-volleyball-ball">&nbsp;</i>GAMES</a>
                     </li>
                 </ul>
             </div>
@@ -260,7 +281,16 @@
                     </div>
                 </div>
             </div>
-
+            <a class="button" href="../commenting tech/comment_index.php" style="background-color: #7e7607;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;">Comment Here</a>
         </div>
 
     </div>

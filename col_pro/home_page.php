@@ -14,7 +14,9 @@ session_start();
     include("functions.php");
 
     $user_data = check_login($conn);
+    
 
+    
 ?>
 
 <!DOCTYPE html>
@@ -47,32 +49,30 @@ session_start();
         <div class="collapse navbar-collapse" id="navi">
             <ul class="navbar-nav  nav-tabs-justified ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="home_page.html"><i class="fa fa-home">&nbsp;</i>HOME</a>
+                    <a class="nav-link active" href="home_page.php"><i class="fa fa-home">&nbsp;</i>HOME</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="tech/techv.html"><i class="fa fa-rocket" aria-hidden="true">&nbsp;</i>TECH</a>
-                </li>
-
-                <li class="nav-item ">
-                    <a class="nav-link " href="movies.html"><i class="fas fa-tv">&nbsp;</i>MOVIES</a>
+                    <a class="nav-link" href="tech/techv.php"><i class="fa fa-rocket" aria-hidden="true">&nbsp;</i>TECH</a>
                 </li>
 
                 <li class="nav-item ">
-                    <a class="nav-link" href="game/games.html"><i class="fas fa-volleyball-ball">&nbsp;</i>GAMES</a>
+                    <a class="nav-link " href="movies.php"><i class="fas fa-tv">&nbsp;</i>MOVIES</a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="game/games.php"><i class="fas fa-volleyball-ball">&nbsp;</i>GAMES</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link " href="our_services.html"><i class="fa fa-fw fa-wrench"></i>OUR SERVICES</a>
+                    <a class="nav-link " href="our_services.php"><i class="fa fa-fw fa-wrench"></i>OUR SERVICES</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html ">CONTACT US</a>
+                    <a class="nav-link" href="contact.php ">CONTACT US</a>
                 </li>
+                
                 <li class="nav-item">
-                <?php echo"Hello!!" .$user_data['username'];?>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="logout.php">Logout<?php echo $user_data['username']; ?></a>
+                    <a class="nav-link" href="logout.php">Logout</a>
                 </li>
             </ul>
         </div>

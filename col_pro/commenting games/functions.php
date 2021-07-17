@@ -16,13 +16,12 @@ function check_login($conn)
 			$user_data = mysqli_fetch_assoc($result);
 			return $user_data;
 		}
-		
 	}
     else{
         echo"not connected";
         //redirect to login
 
-      header("Location: signup.php");
+      header("Location: ../signup.php");
 	  die;
     }
 

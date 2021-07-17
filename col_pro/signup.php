@@ -39,7 +39,7 @@
                  header("Location:home_page.php");
                  die;
                }
-             }
+             } 
            }
            
            echo '<script>alert("wrong username or password!")</script>';
