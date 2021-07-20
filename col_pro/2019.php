@@ -56,13 +56,13 @@
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link " href="movies.html">2020</a>
+                        <a class="nav-link " href="movies.php">2020</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="2019.html">2019</a>
+                        <a class="nav-link active" href="2019.php">2019</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="2018.html">2018</a>
+                        <a class="nav-link" href="2018.php">2018</a>
                     </li>
                 </ul>
             </div>
