@@ -20,7 +20,7 @@ session_start();
 <html>
 
 <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
     <title>Tech Comments </title>
     <script src="jquery-3.2.1.min.js"></script>
     <meta charset="UTF-8">
@@ -36,7 +36,7 @@ session_start();
                            
             
     <body>
-        <center><image src="comment.png" style="width:5vw;height:5vw;"></center>
+        
         <h1 style="color: gold; font-family:Comic Sans MS "><center><i class="fa-solid fa fa-comment"></i>&nbsp; Comment your thoughts on the Article </center></center></h1>
 
         <div class="comment-form-container">

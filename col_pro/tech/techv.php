@@ -61,6 +61,11 @@ session_start();
                     <li class="nav-item">
                         <a class="nav-link " href="../game/games.php"><i class="fas fa-volleyball-ball">&nbsp;</i>GAMES</a>
                     </li>
+                    <div style="padding-left:950px; width:50px">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../searching/search_index.php" "> <i class="fa fa-search" aria-hidden="true"> </i>Search</a>
+                    </li>
+                    </div>
                 </ul>
             </div>
         </nav>
@@ -281,16 +286,7 @@ session_start();
                     </div>
                 </div>
             </div>
-            <a class="button" href="../commenting tech/comment_index.php" style="background-color: #7e7607;
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;">Comment Here</a>
+            
         </div>
 
     </div>

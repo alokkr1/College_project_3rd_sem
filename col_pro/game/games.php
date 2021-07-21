@@ -40,6 +40,11 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="../game/games.php"><i class="fas fa-volleyball-ball">&nbsp;</i>GAMES</a>
                     </li>
+                    <div style="padding-left:950px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../searching/search_index.php" "> <i class="fa fa-search" aria-hidden="true"> </i>Search</a>
+                    </li>
+                    </div>
                 </ul>
             </div>
         </nav>

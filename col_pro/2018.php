@@ -65,6 +65,11 @@ image1/
                     <li class="nav-item">
                         <a class="nav-link active" href="2018.php">2018</a>
                     </li>
+                    <div style="padding-left:550px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="searching/search_index.php" "> <i class="fa fa-search" aria-hidden="true"> </i>Search</a>
+                    </li>
+                    </div>
                 </ul>
             </div>
         </nav>

@@ -22,7 +22,7 @@ session_start();
 
 <head>
     <title>Movie Comments </title>
-   <link rel="stylesheet" href="stylesheet.css" />
+   <link rel="stylesheet" href="stylesheet11.css" >
     <script src="jquery-3.2.1.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +37,7 @@ session_start();
                            
             
     <body>
-        <center><image src="comment.png" style="width:5vw;height:5vw;"></center>
+       
         <h1 style="color: gold; font-family:Comic Sans MS "><center><i class="fa-solid fa fa-comment"></i>&nbsp; Review This Movie </center></center></h1>
 
         <div class="comment-form-container">
