@@ -1,0 +1,51 @@
+I. Instructions to execute Topn
+1. After creating map, reduce ,combiner and driver classes the following addition has to be made in package
+a. Add the following  additional jar file along with normal jar files in build path
+   commons-cli-1.2.jar from hadoop-share-hadoop-common-lib
+b. Create a new package utils in the same project and add MiscUtils.java file to that package
+   Here is the MiscUitls.java program
+ 
+package utils;
+import java.util.*;
+public class MiscUtils {
+/**
+* sorts the map by values. Taken from:
+* http://javarevisited.blogspot.it/2012/12/how-to-sort-hashmap-java-by-key-and-value.html
+*/
+public static <K extends Comparable, V extends Comparable> Map<K, V> sortByValues(Map<K, V> map) {
+List<Map.Entry<K, V>> entries = new LinkedList<Map.Entry<K, V>>(map.entrySet());
+Collections.sort(entries, new Comparator<Map.Entry<K, V>>() {
+@Override
+public int compare(Map.Entry<K, V> o1, Map.Entry<K, V> o2) {
+return o2.getValue().compareTo(o1.getValue());
+}
+});
+//LinkedHashMap will keep the keys in the order they are inserted
+
+//which is currently sorted on natural ordering
+
+Map<K, V> sortedMap = new LinkedHashMap<K, V>();
+for (Map.Entry<K, V> entry : entries) {
+sortedMap.put(entry.getKey(), entry.getValue());
+}
+return sortedMap;
+}
+
+}
+c. After adding this java file into utils package create the jar file, copy necessary text file into hdfs and then execute the jar file
+
+II. Instructions to execute Join Program- See attached zip file
+Steps  - 1. Create two text files DeptName.txt(Dept_ID, Dept_Name) & DepStrength.txt(Dept_ID, Total_Employee).
+               2. Uncompress the Zip File attachedn(Command-      sudo tar -xvf MapReduceJoin.tar.gz)
+                3. Start Hadoop
+                4. DeptStrength.txt and DeptName.txt are the input files used for this MapReduce Join example program.
+These file needs to be copied to HDFS using below command-                                                                                    
+   $HADOOP_HOME/bin/hdfs dfs -copyFromLocal DeptStrength.txt DeptName.txt /
+              5.Run the program using below command-
+              $HADOOP_HOME/bin/hadoop jar MapReduceJoin.jar /DeptStrength.txt /DeptName.txt /output_mapreducejoin(Give appropriate path for text files)
+            6.Results can be seen using the command line interface                                                   
+                        $HADOOP_HOME/bin/hdfs dfs -cat /output_mapreducejoin/part-00000
+  
+
+
+Reference       https://www.guru99.com/introduction-to-counters-joins-in-map-reduce.html
